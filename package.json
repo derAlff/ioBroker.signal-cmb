@@ -1,6 +1,6 @@
 {
   "name": "iobroker.signal-cmb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Send messages from ioBroker to your Signal messenger",
   "author": {
     "name": "derAlff",
