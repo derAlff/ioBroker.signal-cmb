@@ -1,0 +1,41 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "signal-cmb",
+	"title": "signal-cmb",
+	"description": "Send messages from ioBroker to your Signal messenger",
+	"keywords": [
+		"Signal",
+		"Messenger"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "messaging",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"releaseScript": "yes",
+	"devServer": "no",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "derAlff",
+	"authorGithub": "necotec",
+	"authorEmail": "deralff@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.0.2"
+}

@@ -1,0 +1,91 @@
+{
+	"common": {
+		"name": "signal-cmb",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "signal-cmb",
+		"titleLang": {
+			"en": "signal-cmb",
+			"de": "signal-cmb",
+			"ru": "signal-cmb",
+			"pt": "signal-cmb",
+			"nl": "signal-cmb",
+			"fr": "signal-cmb",
+			"it": "signal-cmb",
+			"es": "signal-cmb",
+			"pl": "signal-cmb",
+			"zh-cn": "signal-cmb"
+		},
+		"desc": {
+			"en": "Send messages from ioBroker to your Signal messenger",
+			"de": "Send messages from ioBroker to your Signal messenger",
+			"ru": "Send messages from ioBroker to your Signal messenger",
+			"pt": "Send messages from ioBroker to your Signal messenger",
+			"nl": "Send messages from ioBroker to your Signal messenger",
+			"fr": "Send messages from ioBroker to your Signal messenger",
+			"it": "Send messages from ioBroker to your Signal messenger",
+			"es": "Send messages from ioBroker to your Signal messenger",
+			"pl": "Send messages from ioBroker to your Signal messenger",
+			"zh-cn": "Send messages from ioBroker to your Signal messenger"
+		},
+		"authors": [
+			"derAlff <deralff@gmail.com>"
+		],
+		"keywords": [
+			"signal",
+			"messenger",
+			"notification"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "signal-cmb.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/necotec/ioBroker.signal-cmb/main/admin/signal-cmb.png",
+		"readme": "https://github.com/necotec/ioBroker.signal-cmb/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "messaging",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+            "_id": "sendMessage",
+            "type": "state",
+            "common": {
+                "name": "Send message",
+                "write": true,
+                "read": true,
+                "type": "string",
+                "role": "state"
+            },
+            "native": {}
+        }
+	]
+}
