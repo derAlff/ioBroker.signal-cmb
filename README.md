@@ -46,11 +46,14 @@ sendTo('signal-cmb.0', 'send', {
 
 ![Blockly](img/blockly-signal.png)
 
-<!--
-	Placeholder for the next version (at the beginning of the line):
-	### __WORK IN PROGRESS__
--->
+
 ## Changelog
+<!--
+Placeholder for the next version (at the beginning of the line):
+## **WORK IN PROGRESS**
+* Did some changes
+* Did some more changes
+-->
 
 ### 0.1.3 (2022-01-21)
 * (derAlff) Updated README.md, io-package.json and package.json
