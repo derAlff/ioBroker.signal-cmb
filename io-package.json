@@ -1,8 +1,20 @@
 {
 	"common": {
 		"name": "signal-cmb",
-		"version": "0.0.1",
+		"version": "0.1.0",
 		"news": {
+			"0.1.0": {
+				"en": "First public release",
+				"de": "Erste öffentliche Veröffentlichung",
+				"ru": "Первый публичный релиз",
+				"pt": "Primeiro lançamento público",
+				"nl": "Eerste openbare release",
+				"fr": "Première sortie publique",
+				"it": "Prima uscita pubblica",
+				"es": "Primer lanzamiento público",
+				"pl": "Pierwsze publiczne wydanie",
+				"zh-cn": "首次公开发布"
+			},
 			"0.0.1": {
 				"en": "initial release",
 				"de": "Erstveröffentlichung",
