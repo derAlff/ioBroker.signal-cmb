@@ -1,8 +1,20 @@
 {
 	"common": {
 		"name": "signal-cmb",
-		"version": "0.1.0",
+		"version": "0.1.2",
 		"news": {
+			"0.1.2": {
+				"en": "Little changes and updates",
+				"de": "Kleine Änderungen und Updates",
+				"ru": "Небольшие изменения и обновления",
+				"pt": "Pequenas mudanças e atualizações",
+				"nl": "Kleine veranderingen en updates",
+				"fr": "Petits changements et mises à jour",
+				"it": "Piccole modifiche e aggiornamenti",
+				"es": "Pequeños cambios y actualizaciones",
+				"pl": "Małe zmiany i aktualizacje",
+				"zh-cn": "小改动和更新"
+			},
 			"0.1.0": {
 				"en": "First public release",
 				"de": "Erste öffentliche Veröffentlichung",
