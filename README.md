@@ -12,6 +12,8 @@
 **Tests:**: [![Travis-CI](http://img.shields.io/travis/ioBroker/ioBroker.signal-cmb/master.svg)](https://travis-ci.org/ioBroker/ioBroker.signal-cmb)
 -->
 
+**Tests**: [![Test and Release](https://github.com/necotec/ioBroker.signal-cmb/actions/workflows/test-and-release.yml/badge.svg)](https://github.com/necotec/ioBroker.signal-cmb/actions/workflows/test-and-release.yml)
+
 ## signal-cmb adapter for ioBroker
 Big thanks to free [CallMeBot](https://www.callmebot.com/blog/free-api-signal-send-messages/) service, this adapter allows you to send Signal messages to yourself or other number.
 
