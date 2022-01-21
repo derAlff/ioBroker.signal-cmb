@@ -51,13 +51,16 @@ sendTo('signal-cmb.0', 'send', {
 	### __WORK IN PROGRESS__
 -->
 ## Changelog
-### **WORK IN PROGRESS**
 
 ### 0.1.0
 * (derAlff) Release tested and running version 0.1.0
 
 ### 0.0.1 (2022-01-21)
 * (derAlff) Initial release.
+
+
+### **WORK IN PROGRESS**
+* (derAlff) Add table to send messages to multiple phone numbers
 
 ## License
 MIT License
