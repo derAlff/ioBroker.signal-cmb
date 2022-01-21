@@ -59,7 +59,7 @@ sendTo('signal-cmb.0', 'send', {
 * (derAlff) Initial release.
 
 
-### **WORK IN PROGRESS**
+### 0.1.3 (2022-01-21)
 * (derAlff) Add table to send messages to multiple phone numbers
 
 ## License
