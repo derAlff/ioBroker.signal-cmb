@@ -55,11 +55,14 @@ Placeholder for the next version (at the beginning of the line):
 * Did some more changes
 -->
 
+### 0.1.5 (2022-01-22)
+* (derAlff) Fixed Blockly issue
+
 ### 0.1.4 (2022-01-22)
 * (derAlff) Updated io-package.json and package.json. 
 * (derAlff) Added "messagebox": true to io-package.json. 
 * (derAlff) Changed phonenumber in admin page.
- 
+
 ### 0.1.3 (2022-01-21)
 * (derAlff) Updated README.md, io-package.json and package.json
 
