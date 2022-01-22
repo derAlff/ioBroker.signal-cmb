@@ -1,6 +1,6 @@
 {
   "name": "iobroker.signal-cmb",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Send messages from ioBroker to your Signal messenger",
   "author": {
     "name": "derAlff",
@@ -17,7 +17,8 @@
     "url": "https://github.com/necotec/ioBroker.signal-cmb"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.5.1"
+    "@iobroker/adapter-core": "^2.5.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@alcalzone/release-script": "^2.2.2",

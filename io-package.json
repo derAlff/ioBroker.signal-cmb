@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "news": {
+            "0.1.5":{
+                "en": "Updated io-package.json and package.json. Fixed blockly issue.",
+                "de": "io-package.json und package.json aktualisiert. Block-Problem behoben.",
+                "ru": "Обновлены файлы io-package.json и package.json. Исправлена блочная проблема.",
+                "pt": "Atualizado io-package.json e package.json. Corrigido problema de bloqueio.",
+                "nl": "Bijgewerkt io-package.json en package.json. Blokkeringsprobleem opgelost.",
+                "fr": "Mise à jour de io-package.json et package.json. Correction d'un problème de blocage.",
+                "it": "io-package.json e package.json aggiornati. Risolto problema a blocchi.",
+                "es": "Se actualizaron io-package.json y package.json. Solucionado el problema de los bloques.",
+                "pl": "Zaktualizowano io-package.json i package.json. Naprawiono problem blokowy.",
+                "zh-cn": "更新了 io-package.json 和 package.json。修复了块状问题。"
+            },
             "0.1.4":{
                 "en": "Updated io-package.json and package.json. Added \"messagebox\": true to io-package.json. Changed phonenumber in admin page. ",
                 "de": "io-package.json und package.json aktualisiert. „messagebox“ hinzugefügt: true to io-package.json. Geänderte Telefonnummer auf der Admin-Seite.",
@@ -111,6 +123,7 @@
         "connectionType": "local",
         "dataSource": "push",
         "materialize": true,
+        "blockly": true,
         "dependencies": [
             {
                 "js-controller": ">=2.0.0"
