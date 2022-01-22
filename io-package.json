@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "news": {
+            "0.1.4":{
+                "en": "Updated io-package.json and package.json. Added \"messagebox\": true to io-package.json. Changed phonenumber in admin page. ",
+                "de": "io-package.json und package.json aktualisiert. „messagebox“ hinzugefügt: true to io-package.json. Geänderte Telefonnummer auf der Admin-Seite.",
+                "ru": "Обновлены файлы io-package.json и package.json. Добавлено «messagebox»: true для io-package.json. Изменен номер телефона в админке.",
+                "pt": "Atualizado io-package.json e package.json. Adicionado \"messagebox\": true para io-package.json. Número de telefone alterado na página de administração.",
+                "nl": "Bijgewerkt io-package.json en package.json. \"messagebox\": true toegevoegd aan io-package.json. Telefoonnummer gewijzigd in admin pagina.",
+                "fr": "Mise à jour de io-package.json et package.json. Ajout de \"messagebox\": true à io-package.json. Numéro de téléphone modifié dans la page d'administration.",
+                "it": "io-package.json e package.json aggiornati. Aggiunto \"casella dei messaggi\": fedele a io-package.json. Numero di telefono modificato nella pagina di amministrazione.",
+                "es": "Se actualizaron io-package.json y package.json. Se agregó \"messagebox\": verdadero a io-package.json. Número de teléfono cambiado en la página de administración.",
+                "pl": "Zaktualizowano io-package.json i package.json. Dodano \"messagebox\": prawda dla io-package.json. Zmieniony numer telefonu na stronie administratora.",
+                "zh-cn": "更新了 io-package.json 和 package.json。为 io-package.json 添加了 \"messagebox\": true 。在管理页面中更改了电话号码。"
+            },
             "0.1.3": {
                 "en": "* Add table to send messages to multiple phone numbers\n\n## License\nMIT License\n\nCopyright (c) 2022 derAlff <derAlff@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
                 "de": "* Tabelle hinzufügen, um Nachrichten an mehrere Telefonnummern zu senden\n\n## Lizenz\nMIT-Lizenz\n\nCopyright (c) 2022 derAlff <derAlff@gmail.com>\n\nHiermit wird jeder Person kostenlos die Erlaubnis erteilt, eine Kopie zu erhalten\ndieser Software und zugehörigen Dokumentationsdateien (die „Software“) zu behandeln\nin der Software ohne Einschränkung, einschließlich, aber nicht beschränkt auf die Rechte\nzu verwenden, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu verteilen, unterzulizenzieren und/oder zu verkaufen\nKopien der Software und Personen, denen die Software gehört, zu gestatten\ndazu eingerichtet werden, unter folgenden Bedingungen:\n\nDer obige Urheberrechtshinweis und dieser Genehmigungshinweis müssen in allen enthalten sein\nKopien oder wesentliche Teile der Software.\n\nDIE SOFTWARE WIRD OHNE MÄNGELGEWÄHR UND OHNE AUSDRÜCKLICHE GEWÄHRLEISTUNG JEGLICHER ART ZUR VERFÜGUNG GESTELLT\nSTILLSCHWEIGEND, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT,\nEIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN DRITTER. IN KEINEM FALL SIND DIE\nAUTOREN ODER URHEBERRECHTSINHABER HAFTEN FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE\nHAFTUNG, OB AUS VERTRAG, DELIKT ODER ANDERWEITIG, ENTSTEHEND AUS,\nAUS ODER IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN HANDLUNGEN MIT DER\nSOFTWARE.",
@@ -103,7 +115,8 @@
             {
                 "js-controller": ">=2.0.0"
             }
-        ]
+        ],
+        "messagebox": true
     },
     "native": {
         "option1": true,
