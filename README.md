@@ -1,7 +1,7 @@
 ![Logo](admin/signal-cmb.png)
 # ioBroker.signal-cmb
 
-<!---[![NPM version](http://img.shields.io/npm/v/iobroker.signal-cmb.svg)](https://www.npmjs.com/package/iobroker.signal-cmb)
+[![NPM version](http://img.shields.io/npm/v/iobroker.signal-cmb.svg)](https://www.npmjs.com/package/iobroker.signal-cmb)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.signal-cmb.svg)](https://www.npmjs.com/package/iobroker.signal-cmb)
 [![Dependency Status](https://img.shields.io/david/ioBroker/iobroker.signal-cmb.svg)](https://david-dm.org/ioBroker/iobroker.signal-cmb)
 [![Known Vulnerabilities](https://snyk.io/test/github/ioBroker/ioBroker.signal-cmb/badge.svg)](https://snyk.io/test/github/ioBroker/ioBroker.signal-cmb)
@@ -9,7 +9,7 @@
 [![NPM](https://nodei.co/npm/iobroker.signal-cmb.png?downloads=true)](https://nodei.co/npm/iobroker.signal-cmb/)
 
 
-**Tests:**: [![Travis-CI](http://img.shields.io/travis/ioBroker/ioBroker.signal-cmb/master.svg)](https://travis-ci.org/ioBroker/ioBroker.signal-cmb)
+<!--<**Tests:**: [![Travis-CI](http://img.shields.io/travis/ioBroker/ioBroker.signal-cmb/master.svg)](https://travis-ci.org/ioBroker/ioBroker.signal-cmb)
 -->
 
 **Tests**: [![Test and Release](https://github.com/necotec/ioBroker.signal-cmb/actions/workflows/test-and-release.yml/badge.svg)](https://github.com/necotec/ioBroker.signal-cmb/actions/workflows/test-and-release.yml)

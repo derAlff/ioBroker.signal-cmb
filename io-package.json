@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "news": {
+            "0.1.6":{
+                "en": "Updated README.md, io-package.json and package.json.",
+                "de": "README.md, io-package.json und package.json aktualisiert.",
+                "ru": "Обновлены README.md, io-package.json и package.json.",
+                "pt": "README.md, io-package.json e package.json atualizados.",
+                "nl": "Bijgewerkt README.md, io-package.json en package.json.",
+                "fr": "Mise à jour de README.md, io-package.json et package.json.",
+                "it": "README.md, io-package.json e package.json aggiornati.",
+                "es": "Se actualizaron README.md, io-package.json y package.json.",
+                "pl": "Zaktualizowano README.md, io-package.json i package.json.",
+                "zh-cn": "更新了 README.md、io-package.json 和 package.json。"
+            },
             "0.1.5":{
                 "en": "Updated io-package.json and package.json. Fixed blockly issue.",
                 "de": "io-package.json und package.json aktualisiert. Block-Problem behoben.",
