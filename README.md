@@ -3,8 +3,9 @@
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.signal-cmb.svg)](https://www.npmjs.com/package/iobroker.signal-cmb)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.signal-cmb.svg)](https://www.npmjs.com/package/iobroker.signal-cmb)
-[![Dependency Status](https://img.shields.io/david/ioBroker/iobroker.signal-cmb.svg)](https://david-dm.org/ioBroker/iobroker.signal-cmb)
-<!--[![Known Vulnerabilities](https://snyk.io/test/github/ioBroker/ioBroker.signal-cmb/badge.svg)](https://snyk.io/test/github/ioBroker/ioBroker.signal-cmb)
+
+<!--[![Dependency Status](https://img.shields.io/david/ioBroker/iobroker.signal-cmb.svg)](https://david-dm.org/ioBroker/iobroker.signal-cmb)
+[![Known Vulnerabilities](https://snyk.io/test/github/ioBroker/ioBroker.signal-cmb/badge.svg)](https://snyk.io/test/github/ioBroker/ioBroker.signal-cmb)
 -->
 [![NPM](https://nodei.co/npm/iobroker.signal-cmb.png?downloads=true)](https://nodei.co/npm/iobroker.signal-cmb/)
 
@@ -55,6 +56,10 @@ Placeholder for the next version (at the beginning of the line):
 * Did some more changes
 -->
 
+### 0.1.6 (2022-01-23)
+* (derAlff) Released on npm
+* (derAlff) Updated README.md
+
 ### 0.1.5 (2022-01-22)
 * (derAlff) Fixed Blockly issue
 
@@ -72,6 +77,9 @@ Placeholder for the next version (at the beginning of the line):
 ### 0.0.1 (2022-01-21)
 * (derAlff) Initial release.
 
+## ToDo
+* Add a Phonebook
+* Add multiple users (phone numbers and API-Keys) 
 
 ## License
 MIT License
