@@ -59,6 +59,9 @@ Placeholder for the next version (at the beginning of the line):
 ### 0.1.6 (2022-01-23)
 * (derAlff) Released on npm
 * (derAlff) Updated README.md
+* (derAlff) Translated desc in io-package.json
+* (derAlff) Changed connectionType to cloud
+* (derAlff) Changed native part
 
 ### 0.1.5 (2022-01-22)
 * (derAlff) Fixed Blockly issue
