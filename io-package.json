@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.1.6",
+        "version": "0.1.7",
         "news": {
+            "0.1.7":{
+                "en": "Version change for NPM",
+                "de": "Versionswechsel für NPM",
+                "ru": "Изменение версии для NPM",
+                "pt": "Alteração de versão para NPM",
+                "nl": "Versiewijziging voor NPM",
+                "fr": "Changement de version pour NPM",
+                "it": "Modifica della versione per NPM",
+                "es": "Cambio de versión para NPM",
+                "pl": "Zmiana wersji dla NPM",
+                "zh-cn": "NPM 的版本更改"
+            },
             "0.1.6":{
                 "en": "Updated README.md, io-package.json and package.json. Translated desc in io-package.json. Changed connectionType to cloud. Changed native part.",
                 "de": "README.md, io-package.json und package.json aktualisiert.",

@@ -56,7 +56,10 @@ Placeholder for the next version (at the beginning of the line):
 * Did some more changes
 -->
 
-### 0.1.6 (2022-01-23)
+### 0.1.7 (16.02.22)
+* (derAlff) Version change for NPM
+
+### 0.1.6 (2022-01-22)
 * (derAlff) Released on npm
 * (derAlff) Updated README.md
 * (derAlff) Translated desc in io-package.json
