@@ -6,7 +6,7 @@
     "name": "derAlff",
     "email": "deralff@gmail.com"
   },
-  "homepage": "https://github.com/necotec/ioBroker.signal-cmb",
+  "homepage": "https://github.com/derAlff/ioBroker.signal-cmb",
   "license": "MIT",
   "keywords": [
     "Signal",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/necotec/ioBroker.signal-cmb"
+    "url": "https://github.com/derAlff/ioBroker.signal-cmb"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1",
@@ -63,7 +63,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/necotec/ioBroker.signal-cmb/issues"
+    "url": "https://github.com/derAlff/ioBroker.signal-cmb/issues"
   },
   "readmeFilename": "README.md"
 }
