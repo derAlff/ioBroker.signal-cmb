@@ -53,7 +53,19 @@ To send Emojies, you must add some **'Codes'** to your Message. You can find all
 ### Available Emojies
 |Code|Emojie|
 |---|---|
-|%F0%9F%98%80|:grinning:|
+|%F0%9F%98%80|![grinning](img/emojies/01_grinning.png)|
+|%F0%9F%98%83|![grinning big eyes](img/emojies/02_grinning_big_eyes.png)|
+|%F0%9F%98%84|![grinning smiling eyes](img/emojies/03_grinning_smiling_eyes.png)|
+|%F0%9F%98%81|![beaming smiling eyes](img/emojies/04_beaming_smiling_eyes.png)|
+|%F0%9F%98%86|![grinning squirting face](img/emojies/05_grinning_squinting_face.png)|
+|%F0%9F%98%85|![grinning sewat](img/emojies/06_grinning_sweat.png)|
+|%F0%9F%A4%A3|![rolling on the floor laughhing](img/emojies/07_rolling_on_the_floor_laughing.png)|
+|%F0%9F%A4%A3|![face with tears of joy](img/emojies/08_face_with_tears_of_joy.png)|
+|%F0%9F%98%82|![slightly smiling face](img/emojies/09_slightly_smiling_face.png)|
+|%F0%9F%99%82|![upside down face](img/emojies/10_upside_down_face.png)|
+|%F0%9F%98%89|![winking face](img/emojies/11_winking_face.png)|
+|%F0%9F%98%8A|![smiling face with smiling eyes](img/emojies/12_smiling_face_with_smiling_eyes.png)|
+|%F0%9F%98%87|![smiling face with halo](img/emojies/13_smiling_face_with_halo.png)|
 
 #### Use Emojies
 To use an Emojie, you have to insert the code of the Emojie to your text, what you want to send.
@@ -74,6 +86,7 @@ Placeholder for the next version (at the beginning of the line):
 
 ### 0.2.0 (07.12.22)
 * (derAlff) Added support for Emojies
+* (derAlff) Added informations about emojies in README
 * (derAlff) Replaced phone number in README/Configuration with link to actual phone number on CallMeBot website
 
 ### 0.1.7 (16.02.22)
