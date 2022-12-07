@@ -22,8 +22,33 @@ function sendMessageToSignal(message, phoneNumber) {
         phoneNumber = phoneNumber || adapter.config.defaultPhone;
 
         if (message) {
-            const url = `https://api.callmebot.com/signal/send.php?phone=${phoneNumber}&text=${encodeURIComponent(message)}&apikey=${adapter.config.apikey}&source=iobroker`;
-           adapter.log.debug('Call ' + url);
+            let encodedMessage = encodeURIComponent(message);
+
+            adapter.log.debug(`Encoded message: ${encodedMessage}`);
+            adapter.log.debug(`Original Message: ${message} `);
+            //Detect emojis
+            let lEmojies = null;
+            lEmojies = encodedMessage.match(/%25F0%259F%25[0-9A-Fa-f]{2}%25[0-9A-Fa-f]{2}/g);
+            adapter.log.debug(`Size of 'lEmojies': ${lEmojies?.length}`);
+
+            if(lEmojies !== null)
+            {
+                if(lEmojies.length && lEmojies)
+                {
+                    lEmojies.forEach(element => {
+                        encodedMessage = encodedMessage.replace(element, decodeURIComponent(element));
+                        adapter.log.debug(`Found emoji ${element.toString()}$`);
+                        adapter.log.debug(`Replace with ${decodeURIComponent(element)}`);
+                    });
+                }
+            } 
+            else
+            {
+                adapter.log.debug(`'lEmojies is null...'`);   
+            } 
+
+            const url = `https://api.callmebot.com/signal/send.php?phone=${phoneNumber}&text=${encodedMessage}&apikey=${adapter.config.apikey}&source=iobroker`;
+            adapter.log.debug('Call ' + url);
             request(url, (err, resp, body) => {
                 adapter.log.debug(body);
                 !err && resp && resp.statusCode < 400 && (!body || !body.includes('ERROR')) ? resolve() : reject(err || body || (resp && resp.statusCode));
