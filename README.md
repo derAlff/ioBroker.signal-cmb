@@ -25,7 +25,7 @@ Big thanks to free [CallMeBot](https://www.callmebot.com/blog/free-api-signal-se
 
 You need to get the API key form the bot before using the API:
 
-- Add the phone number **+34 603 21 25 97** into your Phone Contacts. (Name it it as you wish.)
+- Add the phone number of the CallMeBot into your Phone Contacts (Name it it as you wish). You can find the actual phone number here: https://www.callmebot.com/blog/free-api-signal-send-messages/ 
 - Send this message `I allow callmebot to send me messages` (in english) to the new contact created (using Signal of course).
 - Wait until you receive the message `API Activated for your phone number. Your APIKEY is 123123` from the bot. As this is still in beta testing, the activation can take up to 2 minutes.
 - The Signal message from the bot will contain the API key needed to send messages using the API.
@@ -47,6 +47,22 @@ sendTo('signal-cmb.0', 'send', {
 
 ![Blockly](img/blockly-signal.png)
 
+### Emojies
+To send Emojies, you must add some **'Codes'** to your Message. You can find all available codes here: https://www.callmebot.com/uncategorized/list-of-urlencoded-unicode-emoticons-emojis/
+
+### Available Emojies
+|Code|Emojie|
+|---|---|
+|%F0%9F%98%80|:grinning:|
+
+#### Use Emojies
+To use an Emojie, you have to insert the code of the Emojie to your text, what you want to send.
+
+![Insert Emojie](img/add_emojies.png)
+
+The **signal-cmb** adapter URLencode this code and you see in your Signal Messenger on you phone the Emojie.
+
+![Emojie Signal Messenger](img/emojie_signal_mesenger.png)
 
 ## Changelog
 <!--
@@ -55,6 +71,10 @@ Placeholder for the next version (at the beginning of the line):
 * Did some changes
 * Did some more changes
 -->
+
+### 0.2.0 (07.12.22)
+* (derAlff) Added support for Emojies
+* (derAlff) Replaced phone number in README/Configuration with link to actual phone number on CallMeBot website
 
 ### 0.1.7 (16.02.22)
 * (derAlff) Version change for NPM
