@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.1.7",
+        "version": "0.2.0",
         "news": {
+            "0.2.0":{
+                "en": "Added support for emojies",
+                "de": "Unterstützung für Emojies",
+                "ru": "Добавлена поддержка emojies",
+                "pt": "Adicionado suporte para emojies",
+                "nl": "Aanbesteding voor emojies",
+                "fr": "Ajout du soutien aux emojies",
+                "it": "Aggiunto supporto per emojies",
+                "es": "Apoyo añadido para emojies",
+                "pl": "Wsparcie dla emojji",
+                "uk": "Додано підтримку смайликів",
+                "zh-cn": "增加对Emojies的支持"
+            },
             "0.1.7":{
                 "en": "Version change for NPM",
                 "de": "Versionswechsel für NPM",
