@@ -83,6 +83,12 @@ Placeholder for the next version (at the beginning of the line):
 * Did some changes
 * Did some more changes
 -->
+### 0.2.2 (07.12.22)
+* (derAlff) Version change for NPM
+
+### 0.2.1 (07.12.22)
+* (derAlff) Version change for NPM
+
 ### 0.2.0 (07.12.22)
 * (derAlff) Added support for Emojies
 * (derAlff) Added informations about emojies in README

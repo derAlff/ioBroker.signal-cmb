@@ -1,8 +1,32 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.2.0",
+        "version": "0.2.2",
         "news": {
+            "0.2.2":{
+                "en": "Version change for NPM",
+                "de": "Versionswechsel für NPM",
+                "ru": "Изменение версии для NPM",
+                "pt": "Alteração de versão para NPM",
+                "nl": "Versiewijziging voor NPM",
+                "fr": "Changement de version pour NPM",
+                "it": "Modifica della versione per NPM",
+                "es": "Cambio de versión para NPM",
+                "pl": "Zmiana wersji dla NPM",
+                "zh-cn": "NPM 的版本更改"
+            },
+            "0.2.1":{
+                "en": "Version change for NPM",
+                "de": "Versionswechsel für NPM",
+                "ru": "Изменение версии для NPM",
+                "pt": "Alteração de versão para NPM",
+                "nl": "Versiewijziging voor NPM",
+                "fr": "Changement de version pour NPM",
+                "it": "Modifica della versione per NPM",
+                "es": "Cambio de versión para NPM",
+                "pl": "Zmiana wersji dla NPM",
+                "zh-cn": "NPM 的版本更改"
+            },
             "0.2.0":{
                 "en": "Added support for emojies",
                 "de": "Unterstützung für Emojies",
@@ -151,8 +175,8 @@
         "main": "main.js",
         "icon": "signal-cmb.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/necotec/ioBroker.signal-cmb/master/admin/signal-cmb.png",
-        "readme": "https://github.com/necotec/ioBroker.signal-cmb/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/derAlff/ioBroker.signal-cmb/master/admin/signal-cmb.png",
+        "readme": "https://github.com/derAlff/ioBroker.signal-cmb/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "messaging",
