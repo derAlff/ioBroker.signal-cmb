@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.2.2",
+        "version": "0.2.3",
         "news": {
+            "0.2.3":{
+                "en": "Added support for encoded linebreak (%0A -> \\n) in string",
+                "de": "Unterstützung für codierte Linebreaks (%0A -> \\n) in String",
+                "ru": "Добавлена поддержка encoded linebreak (%0A -> \\n) в строке",
+                "pt": "Adicionado suporte para linebreak codificado (%0A -> \\n) em string",
+                "nl": "Ondersteuning voor gecodeerde linebreak (%0A -> \\n) in touw",
+                "fr": "Ajout du support pour encoder linebreak (%0A -> \\n) en chaîne",
+                "it": "Aggiunto supporto per il linebreak codificato (%0A -> \\n) in stringa",
+                "es": "Soporte añadido para linbreak codificado (%0A -> \\n) en cadena",
+                "pl": "Wsparcie do kodowania linii (%0A –> \\n) w strunach",
+                "uk": "Додано підтримку кодування вкладки (%0A -> \\n) в рядок",
+                "zh-cn": "A. 在四舍五入的线上增加支助"
+            },
             "0.2.2":{
                 "en": "Version change for NPM",
                 "de": "Versionswechsel für NPM",
