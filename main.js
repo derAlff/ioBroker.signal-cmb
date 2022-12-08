@@ -22,6 +22,7 @@ function sendMessageToSignal(message, phoneNumber) {
         phoneNumber = phoneNumber || adapter.config.defaultPhone;
 
         if (message) {
+            const sNewline = "%0A";
             let encodedMessage = encodeURIComponent(message);
 
             adapter.log.debug(`Encoded message: ${encodedMessage}`);
@@ -29,7 +30,10 @@ function sendMessageToSignal(message, phoneNumber) {
             //Detect emojis
             let lEmojies = null;
             lEmojies = encodedMessage.match(/%25F0%259F%25[0-9A-Fa-f]{2}%25[0-9A-Fa-f]{2}/g);
+            let lNewlines = null;
+            lNewlines = encodedMessage.match(/%250A/g);
             adapter.log.debug(`Size of 'lEmojies': ${lEmojies?.length}`);
+            adapter.log.debug(`Size of 'lNewlines': ${lNewlines?.length}`);
 
             if(lEmojies !== null)
             {
@@ -45,6 +49,21 @@ function sendMessageToSignal(message, phoneNumber) {
             else
             {
                 adapter.log.debug(`'lEmojies is null...'`);   
+            } 
+
+            if(lNewlines !== null)
+            {
+                if(lNewlines.length && lNewlines)
+                {
+                    lNewlines.forEach(element =>{
+                        encodedMessage = encodedMessage.replace(element, decodeURIComponent(element));
+                        adapter.log.debug(`Found newline and replace!`);
+                    });
+                }    
+            } 
+            else
+            {
+                adapter.log.debug("'lNewlines' is null...");
             } 
 
             const url = `https://api.callmebot.com/signal/send.php?phone=${phoneNumber}&text=${encodedMessage}&apikey=${adapter.config.apikey}&source=iobroker`;
