@@ -51,6 +51,7 @@ sendTo('signal-cmb.0', 'send', {
 To send Emojies, you must add some **'Codes'** to your Message. You can find all available codes here: https://www.callmebot.com/uncategorized/list-of-urlencoded-unicode-emoticons-emojis/
 
 ### Available Emojies
+The following Emojies are official supported from CallMeBot:
 |Code|Emojie|
 |---|---|
 |%F0%9F%98%80|![grinning](img/emojies/01_grinning.png)|
@@ -83,6 +84,10 @@ Placeholder for the next version (at the beginning of the line):
 * Did some changes
 * Did some more changes
 -->
+### 0.2.3 (08.07.22)
+* (derAlff) Added support for 'encoded newline' in string
+* (derAlff) Updated README
+
 ### 0.2.2 (07.12.22)
 * (derAlff) Version change for NPM
 
