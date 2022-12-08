@@ -84,7 +84,7 @@ Placeholder for the next version (at the beginning of the line):
 * Did some changes
 * Did some more changes
 -->
-### 0.2.3 (08.07.22)
+### 0.2.3 (08.12.22)
 * (derAlff) Added support for 'encoded newline' in string
 * (derAlff) Updated README
 
