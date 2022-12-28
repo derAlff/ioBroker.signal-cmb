@@ -1,6 +1,6 @@
 {
   "name": "iobroker.signal-cmb",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Send messages from ioBroker to your Signal messenger",
   "author": {
     "name": "derAlff",
@@ -17,7 +17,7 @@
     "url": "https://github.com/derAlff/ioBroker.signal-cmb"
   },
   "engines":{
-    "node": ">=16.0.0"
+    "node": ">=14.0.0"
   }, 
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1",
