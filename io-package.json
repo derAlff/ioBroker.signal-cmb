@@ -4,17 +4,17 @@
         "version": "0.3.0",
         "news": {
             "0.3.0":{
-                "en": "Added support for encoded linebreak (%0A -> \\n) in string",
-                "de": "Unterstützung für codierte Linebreaks (%0A -> \\n) in String",
-                "ru": "Добавлена поддержка encoded linebreak (%0A -> \\n) в строке",
-                "pt": "Adicionado suporte para linebreak codificado (%0A -> \\n) em string",
-                "nl": "Ondersteuning voor gecodeerde linebreak (%0A -> \\n) in touw",
-                "fr": "Ajout du support pour encoder linebreak (%0A -> \\n) en chaîne",
-                "it": "Aggiunto supporto per il linebreak codificato (%0A -> \\n) in stringa",
-                "es": "Soporte añadido para linbreak codificado (%0A -> \\n) en cadena",
-                "pl": "Wsparcie do kodowania linii (%0A –> \\n) w strunach",
-                "uk": "Додано підтримку кодування вкладки (%0A -> \\n) в рядок",
-                "zh-cn": "A. 在四舍五入的线上增加支助"
+                "en": "Updated 'package.json' to use a minimal version of NodeJS. Updated description to configure CallMeBot in  'index_m.html'. Updated configuration text with the GUID problem in README.",
+                "de": "Aktualisierte Paket.json, um eine minimale Version von NodeJS zu verwenden. Aktualisierte Beschreibung zum Konfigurieren von CallMeBot in index_m.html Aktualisierter Konfigurationstext mit dem GUID-Problem in README.",
+                "ru": "Обновленный пакет.json для использования минимальной версии NodeJS. Обновленное описание для настройки CallMeBot в index_m.html Обновленный текст конфигурации с проблемой GUID в README.",
+                "pt": "Atualizado package.json para usar uma versão mínima do NodeJS. Descrição atualizada para configurar o CallMeBot in index_m.html Texto de configuração atualizado com o problema GUID no README.",
+                "nl": "Een verkleed pakket, Json om een minimale versie van NodeJS te gebruiken. Verouderde beschrijving om CallMeBot in indexml. Verouderde zelfvertrouwen sms met het GUID-probleem.",
+                "fr": "Mis à jour package.json pour utiliser une version minimale de NodeJS. Description actualisée pour configurer CallMeBot dans index_m.html Correction du texte de configuration avec le problème GUID dans README.",
+                "it": "Package.json aggiornato per utilizzare una versione minima di NodeJS. Descrizione aggiornata per configurare CallMeBot in index_m.html Testo di configurazione aggiornato con il problema GUID in README.",
+                "es": "Paquete actualizado.json para utilizar una versión mínima de NodeJS. Descripción actualizada para configurar CallMeBot en index_m.html Texto de configuración actualizado con el problema GUID en README.",
+                "pl": "Wprowadzone pakiety.json wykorzystuje minimalną wersję NodeJS. Zawarty opis configure CallMeBot in index_mhtml. Ulepszona wersja tekstu z problemem GUID w README.",
+                "uk": "Оновлений пакет.json використовувати мінімальну версію NodeJS. Оновлений опис для налаштування CallMeBot в index_m.html Оновлений текст конфігурації з проблемою GUID у README.",
+                "zh-cn": "更新的一揽子计划:使用最低数量的诺迪希斯。 索引图图 更新的格式案文,加上GID问题对中小企业。."
             },
             "0.2.3":{
                 "en": "Added support for encoded linebreak (%0A -> \\n) in string",
