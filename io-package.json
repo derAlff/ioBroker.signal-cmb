@@ -204,6 +204,7 @@
         "extIcon": "https://raw.githubusercontent.com/derAlff/ioBroker.signal-cmb/master/admin/signal-cmb.png",
         "readme": "https://github.com/derAlff/ioBroker.signal-cmb/blob/master/README.md",
         "loglevel": "info",
+        "tier": 2,
         "mode": "daemon",
         "type": "messaging",
         "compact": true,
