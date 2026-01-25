@@ -9,6 +9,7 @@
   "homepage": "https://github.com/derAlff/ioBroker.signal-cmb",
   "license": "MIT",
   "keywords": [
+    "ioBroker",
     "Signal",
     "Messenger"
   ],
