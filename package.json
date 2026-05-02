@@ -17,7 +17,7 @@
     "url": "https://github.com/derAlff/ioBroker.signal-cmb"
   },
   "engines":{
-    "node": ">=14.0.0"
+    "node": ">=22.0.0"
   }, 
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1",
