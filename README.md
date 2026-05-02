@@ -79,6 +79,9 @@ Placeholder for the next version (at the beginning of the line):
 * Did some changes
 * Did some more changes
 -->
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### 0.3.1 (28.12.22)
 * (derAlff) Updated 'package.json' to use a minimal version of NodeJS
 * (derAlff) Updated description to configure CallMeBot in  'index_m.html'
