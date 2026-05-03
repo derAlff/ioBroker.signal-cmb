@@ -75,6 +75,9 @@ The **signal-cmb** adapter URLencode this code and you see in your Signal Messen
 ## Changelog
 <!--
 Placeholder for the next version (at the beginning of the line):
+
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## **WORK IN PROGRESS**
 * Did some changes
 * Did some more changes
