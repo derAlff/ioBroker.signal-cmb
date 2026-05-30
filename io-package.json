@@ -1,240 +1,242 @@
 {
-    "common": {
-        "name": "signal-cmb",
-        "version": "0.3.0",
-        "news": {
-            "0.3.0":{
-                "en": "Updated 'package.json' to use a minimal version of NodeJS. Updated description to configure CallMeBot in  'index_m.html'. Updated configuration text with the GUID problem in README.",
-                "de": "Aktualisierte Paket.json, um eine minimale Version von NodeJS zu verwenden. Aktualisierte Beschreibung zum Konfigurieren von CallMeBot in index_m.html Aktualisierter Konfigurationstext mit dem GUID-Problem in README.",
-                "ru": "Обновленный пакет.json для использования минимальной версии NodeJS. Обновленное описание для настройки CallMeBot в index_m.html Обновленный текст конфигурации с проблемой GUID в README.",
-                "pt": "Atualizado package.json para usar uma versão mínima do NodeJS. Descrição atualizada para configurar o CallMeBot in index_m.html Texto de configuração atualizado com o problema GUID no README.",
-                "nl": "Een verkleed pakket, Json om een minimale versie van NodeJS te gebruiken. Verouderde beschrijving om CallMeBot in indexml. Verouderde zelfvertrouwen sms met het GUID-probleem.",
-                "fr": "Mis à jour package.json pour utiliser une version minimale de NodeJS. Description actualisée pour configurer CallMeBot dans index_m.html Correction du texte de configuration avec le problème GUID dans README.",
-                "it": "Package.json aggiornato per utilizzare una versione minima di NodeJS. Descrizione aggiornata per configurare CallMeBot in index_m.html Testo di configurazione aggiornato con il problema GUID in README.",
-                "es": "Paquete actualizado.json para utilizar una versión mínima de NodeJS. Descripción actualizada para configurar CallMeBot en index_m.html Texto de configuración actualizado con el problema GUID en README.",
-                "pl": "Wprowadzone pakiety.json wykorzystuje minimalną wersję NodeJS. Zawarty opis configure CallMeBot in index_mhtml. Ulepszona wersja tekstu z problemem GUID w README.",
-                "uk": "Оновлений пакет.json використовувати мінімальну версію NodeJS. Оновлений опис для налаштування CallMeBot в index_m.html Оновлений текст конфігурації з проблемою GUID у README.",
-                "zh-cn": "更新的一揽子计划:使用最低数量的诺迪希斯。 索引图图 更新的格式案文,加上GID问题对中小企业。."
-            },
-            "0.2.3":{
-                "en": "Added support for encoded linebreak (%0A -> \\n) in string",
-                "de": "Unterstützung für codierte Linebreaks (%0A -> \\n) in String",
-                "ru": "Добавлена поддержка encoded linebreak (%0A -> \\n) в строке",
-                "pt": "Adicionado suporte para linebreak codificado (%0A -> \\n) em string",
-                "nl": "Ondersteuning voor gecodeerde linebreak (%0A -> \\n) in touw",
-                "fr": "Ajout du support pour encoder linebreak (%0A -> \\n) en chaîne",
-                "it": "Aggiunto supporto per il linebreak codificato (%0A -> \\n) in stringa",
-                "es": "Soporte añadido para linbreak codificado (%0A -> \\n) en cadena",
-                "pl": "Wsparcie do kodowania linii (%0A –> \\n) w strunach",
-                "uk": "Додано підтримку кодування вкладки (%0A -> \\n) в рядок",
-                "zh-cn": "A. 在四舍五入的线上增加支助"
-            },
-            "0.2.2":{
-                "en": "Version change for NPM",
-                "de": "Versionswechsel für NPM",
-                "ru": "Изменение версии для NPM",
-                "pt": "Alteração de versão para NPM",
-                "nl": "Versiewijziging voor NPM",
-                "fr": "Changement de version pour NPM",
-                "it": "Modifica della versione per NPM",
-                "es": "Cambio de versión para NPM",
-                "pl": "Zmiana wersji dla NPM",
-                "zh-cn": "NPM 的版本更改"
-            },
-            "0.2.1":{
-                "en": "Version change for NPM",
-                "de": "Versionswechsel für NPM",
-                "ru": "Изменение версии для NPM",
-                "pt": "Alteração de versão para NPM",
-                "nl": "Versiewijziging voor NPM",
-                "fr": "Changement de version pour NPM",
-                "it": "Modifica della versione per NPM",
-                "es": "Cambio de versión para NPM",
-                "pl": "Zmiana wersji dla NPM",
-                "zh-cn": "NPM 的版本更改"
-            },
-            "0.2.0":{
-                "en": "Added support for emojies",
-                "de": "Unterstützung für Emojies",
-                "ru": "Добавлена поддержка emojies",
-                "pt": "Adicionado suporte para emojies",
-                "nl": "Aanbesteding voor emojies",
-                "fr": "Ajout du soutien aux emojies",
-                "it": "Aggiunto supporto per emojies",
-                "es": "Apoyo añadido para emojies",
-                "pl": "Wsparcie dla emojji",
-                "uk": "Додано підтримку смайликів",
-                "zh-cn": "增加对Emojies的支持"
-            },
-            "0.1.7":{
-                "en": "Version change for NPM",
-                "de": "Versionswechsel für NPM",
-                "ru": "Изменение версии для NPM",
-                "pt": "Alteração de versão para NPM",
-                "nl": "Versiewijziging voor NPM",
-                "fr": "Changement de version pour NPM",
-                "it": "Modifica della versione per NPM",
-                "es": "Cambio de versión para NPM",
-                "pl": "Zmiana wersji dla NPM",
-                "zh-cn": "NPM 的版本更改"
-            },
-            "0.1.6":{
-                "en": "Updated README.md, io-package.json and package.json. Translated desc in io-package.json. Changed connectionType to cloud. Changed native part.",
-                "de": "README.md, io-package.json und package.json aktualisiert.",
-                "ru": "Обновлены README.md, io-package.json и package.json.",
-                "pt": "README.md, io-package.json e package.json atualizados.",
-                "nl": "Bijgewerkt README.md, io-package.json en package.json.",
-                "fr": "Mise à jour de README.md, io-package.json et package.json.",
-                "it": "README.md, io-package.json e package.json aggiornati.",
-                "es": "Se actualizaron README.md, io-package.json y package.json.",
-                "pl": "Zaktualizowano README.md, io-package.json i package.json.",
-                "zh-cn": "更新了 README.md、io-package.json 和 package.json。"
-            },
-            "0.1.5":{
-                "en": "Updated io-package.json and package.json. Fixed blockly issue.",
-                "de": "io-package.json und package.json aktualisiert. Block-Problem behoben.",
-                "ru": "Обновлены файлы io-package.json и package.json. Исправлена блочная проблема.",
-                "pt": "Atualizado io-package.json e package.json. Corrigido problema de bloqueio.",
-                "nl": "Bijgewerkt io-package.json en package.json. Blokkeringsprobleem opgelost.",
-                "fr": "Mise à jour de io-package.json et package.json. Correction d'un problème de blocage.",
-                "it": "io-package.json e package.json aggiornati. Risolto problema a blocchi.",
-                "es": "Se actualizaron io-package.json y package.json. Solucionado el problema de los bloques.",
-                "pl": "Zaktualizowano io-package.json i package.json. Naprawiono problem blokowy.",
-                "zh-cn": "更新了 io-package.json 和 package.json。修复了块状问题。"
-            },
-            "0.1.4":{
-                "en": "Updated io-package.json and package.json. Added \"messagebox\": true to io-package.json. Changed phonenumber in admin page. ",
-                "de": "io-package.json und package.json aktualisiert. „messagebox“ hinzugefügt: true to io-package.json. Geänderte Telefonnummer auf der Admin-Seite.",
-                "ru": "Обновлены файлы io-package.json и package.json. Добавлено «messagebox»: true для io-package.json. Изменен номер телефона в админке.",
-                "pt": "Atualizado io-package.json e package.json. Adicionado \"messagebox\": true para io-package.json. Número de telefone alterado na página de administração.",
-                "nl": "Bijgewerkt io-package.json en package.json. \"messagebox\": true toegevoegd aan io-package.json. Telefoonnummer gewijzigd in admin pagina.",
-                "fr": "Mise à jour de io-package.json et package.json. Ajout de \"messagebox\": true à io-package.json. Numéro de téléphone modifié dans la page d'administration.",
-                "it": "io-package.json e package.json aggiornati. Aggiunto \"casella dei messaggi\": fedele a io-package.json. Numero di telefono modificato nella pagina di amministrazione.",
-                "es": "Se actualizaron io-package.json y package.json. Se agregó \"messagebox\": verdadero a io-package.json. Número de teléfono cambiado en la página de administración.",
-                "pl": "Zaktualizowano io-package.json i package.json. Dodano \"messagebox\": prawda dla io-package.json. Zmieniony numer telefonu na stronie administratora.",
-                "zh-cn": "更新了 io-package.json 和 package.json。为 io-package.json 添加了 \"messagebox\": true 。在管理页面中更改了电话号码。"
-            },
-            "0.1.3": {
-                "en": "Updated README.md, io-package.json and package.json",
-                "de": "README.md, io-package.json und package.json aktualisiert",
-                "ru": "Обновлен README.md, io-package.json и package.json.",
-                "pt": "Atualizado README.md, io-package.json e package.json",
-                "nl": "Bijgewerkt README.md, io-package.json en package.json",
-                "fr": "Mise à jour de README.md, io-package.json et package.json",
-                "it": "README.md, io-package.json e package.json aggiornati",
-                "es": "README.md, io-package.json y package.json actualizados",
-                "pl": "Zaktualizowano README.md, io-package.json i package.json",
-                "zh-cn": "更新了 README.md、io-package.json 和 package.json"
-            },
-            "0.1.2": {
-                "en": "Little changes and updates",
-                "de": "Kleine Änderungen und Updates",
-                "ru": "Небольшие изменения и обновления",
-                "pt": "Pequenas mudanças e atualizações",
-                "nl": "Kleine veranderingen en updates",
-                "fr": "Petits changements et mises à jour",
-                "it": "Piccole modifiche e aggiornamenti",
-                "es": "Pequeños cambios y actualizaciones",
-                "pl": "Małe zmiany i aktualizacje",
-                "zh-cn": "小改动和更新"
-            },
-            "0.1.0": {
-                "en": "First public release",
-                "de": "Erste öffentliche Veröffentlichung",
-                "ru": "Первый публичный релиз",
-                "pt": "Primeiro lançamento público",
-                "nl": "Eerste openbare release",
-                "fr": "Première sortie publique",
-                "it": "Prima uscita pubblica",
-                "es": "Primer lanzamiento público",
-                "pl": "Pierwsze publiczne wydanie",
-                "zh-cn": "首次公开发布"
-            },
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次出版"
-            }
-        },
-        "title": "signal-cmb",
-        "titleLang": {
-            "en": "signal-cmb",
-            "de": "signal-cmb",
-            "ru": "signal-cmb",
-            "pt": "signal-cmb",
-            "nl": "signal-cmb",
-            "fr": "signal-cmb",
-            "it": "signal-cmb",
-            "es": "signal-cmb",
-            "pl": "signal-cmb",
-            "zh-cn": "signal-cmb"
-        },
-        "desc": {
-            "en": "Send messages from ioBroker to your Signal messenger",
-            "de": "Senden Sie Nachrichten von ioBroker an Ihren Signal-Messenger",
-            "ru": "Отправляйте сообщения из ioBroker в ваш мессенджер Signal",
-            "pt": "Envie mensagens do ioBroker para o seu mensageiro Signal",
-            "nl": "Stuur berichten van ioBroker naar uw Signal messenger",
-            "fr": "Envoyez des messages d'ioBroker à votre messager Signal",
-            "it": "Invia messaggi da ioBroker al tuo Signal messenger",
-            "es": "Envíe mensajes de ioBroker a su mensajero Signal",
-            "pl": "Wysyłaj wiadomości z ioBroker do swojego komunikatora Signal",
-            "zh-cn": "从 ioBroker 向您的 Signal Messenger 发送消息"
-        },
-        "authors": [
-            "derAlff <deralff@gmail.com>"
-        ],
-        "keywords": [
-            "signal",
-            "messenger",
-            "notification"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "main": "main.js",
-        "icon": "signal-cmb.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/derAlff/ioBroker.signal-cmb/master/admin/signal-cmb.png",
-        "readme": "https://github.com/derAlff/ioBroker.signal-cmb/blob/master/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "messaging",
-        "compact": true,
-        "connectionType": "cloud",
-        "dataSource": "push",
-        "materialize": true,
-        "blockly": true,
-        "dependencies": [
-            {
-                "js-controller": ">=2.0.0"
-            }
-        ],
-        "messagebox": true
+  "common": {
+    "name": "signal-cmb",
+    "version": "0.3.0",
+    "news": {
+      "0.3.0": {
+        "en": "Updated 'package.json' to use a minimal version of NodeJS. Updated description to configure CallMeBot in  'index_m.html'. Updated configuration text with the GUID problem in README.",
+        "de": "Aktualisierte Paket.json, um eine minimale Version von NodeJS zu verwenden. Aktualisierte Beschreibung zum Konfigurieren von CallMeBot in index_m.html Aktualisierter Konfigurationstext mit dem GUID-Problem in README.",
+        "ru": "Обновленный пакет.json для использования минимальной версии NodeJS. Обновленное описание для настройки CallMeBot в index_m.html Обновленный текст конфигурации с проблемой GUID в README.",
+        "pt": "Atualizado package.json para usar uma versão mínima do NodeJS. Descrição atualizada para configurar o CallMeBot in index_m.html Texto de configuração atualizado com o problema GUID no README.",
+        "nl": "Een verkleed pakket, Json om een minimale versie van NodeJS te gebruiken. Verouderde beschrijving om CallMeBot in indexml. Verouderde zelfvertrouwen sms met het GUID-probleem.",
+        "fr": "Mis à jour package.json pour utiliser une version minimale de NodeJS. Description actualisée pour configurer CallMeBot dans index_m.html Correction du texte de configuration avec le problème GUID dans README.",
+        "it": "Package.json aggiornato per utilizzare una versione minima di NodeJS. Descrizione aggiornata per configurare CallMeBot in index_m.html Testo di configurazione aggiornato con il problema GUID in README.",
+        "es": "Paquete actualizado.json para utilizar una versión mínima de NodeJS. Descripción actualizada para configurar CallMeBot en index_m.html Texto de configuración actualizado con el problema GUID en README.",
+        "pl": "Wprowadzone pakiety.json wykorzystuje minimalną wersję NodeJS. Zawarty opis configure CallMeBot in index_mhtml. Ulepszona wersja tekstu z problemem GUID w README.",
+        "uk": "Оновлений пакет.json використовувати мінімальну версію NodeJS. Оновлений опис для налаштування CallMeBot в index_m.html Оновлений текст конфігурації з проблемою GUID у README.",
+        "zh-cn": "更新的一揽子计划:使用最低数量的诺迪希斯。 索引图图 更新的格式案文,加上GID问题对中小企业。."
+      },
+      "0.2.3": {
+        "en": "Added support for encoded linebreak (%0A -> \\n) in string",
+        "de": "Unterstützung für codierte Linebreaks (%0A -> \\n) in String",
+        "ru": "Добавлена поддержка encoded linebreak (%0A -> \\n) в строке",
+        "pt": "Adicionado suporte para linebreak codificado (%0A -> \\n) em string",
+        "nl": "Ondersteuning voor gecodeerde linebreak (%0A -> \\n) in touw",
+        "fr": "Ajout du support pour encoder linebreak (%0A -> \\n) en chaîne",
+        "it": "Aggiunto supporto per il linebreak codificato (%0A -> \\n) in stringa",
+        "es": "Soporte añadido para linbreak codificado (%0A -> \\n) en cadena",
+        "pl": "Wsparcie do kodowania linii (%0A –> \\n) w strunach",
+        "uk": "Додано підтримку кодування вкладки (%0A -> \\n) в рядок",
+        "zh-cn": "A. 在四舍五入的线上增加支助"
+      },
+      "0.2.2": {
+        "en": "Version change for NPM",
+        "de": "Versionswechsel für NPM",
+        "ru": "Изменение версии для NPM",
+        "pt": "Alteração de versão para NPM",
+        "nl": "Versiewijziging voor NPM",
+        "fr": "Changement de version pour NPM",
+        "it": "Modifica della versione per NPM",
+        "es": "Cambio de versión para NPM",
+        "pl": "Zmiana wersji dla NPM",
+        "zh-cn": "NPM 的版本更改"
+      },
+      "0.2.1": {
+        "en": "Version change for NPM",
+        "de": "Versionswechsel für NPM",
+        "ru": "Изменение версии для NPM",
+        "pt": "Alteração de versão para NPM",
+        "nl": "Versiewijziging voor NPM",
+        "fr": "Changement de version pour NPM",
+        "it": "Modifica della versione per NPM",
+        "es": "Cambio de versión para NPM",
+        "pl": "Zmiana wersji dla NPM",
+        "zh-cn": "NPM 的版本更改"
+      },
+      "0.2.0": {
+        "en": "Added support for emojies",
+        "de": "Unterstützung für Emojies",
+        "ru": "Добавлена поддержка emojies",
+        "pt": "Adicionado suporte para emojies",
+        "nl": "Aanbesteding voor emojies",
+        "fr": "Ajout du soutien aux emojies",
+        "it": "Aggiunto supporto per emojies",
+        "es": "Apoyo añadido para emojies",
+        "pl": "Wsparcie dla emojji",
+        "uk": "Додано підтримку смайликів",
+        "zh-cn": "增加对Emojies的支持"
+      },
+      "0.1.7": {
+        "en": "Version change for NPM",
+        "de": "Versionswechsel für NPM",
+        "ru": "Изменение версии для NPM",
+        "pt": "Alteração de versão para NPM",
+        "nl": "Versiewijziging voor NPM",
+        "fr": "Changement de version pour NPM",
+        "it": "Modifica della versione per NPM",
+        "es": "Cambio de versión para NPM",
+        "pl": "Zmiana wersji dla NPM",
+        "zh-cn": "NPM 的版本更改"
+      },
+      "0.1.6": {
+        "en": "Updated README.md, io-package.json and package.json. Translated desc in io-package.json. Changed connectionType to cloud. Changed native part.",
+        "de": "README.md, io-package.json und package.json aktualisiert.",
+        "ru": "Обновлены README.md, io-package.json и package.json.",
+        "pt": "README.md, io-package.json e package.json atualizados.",
+        "nl": "Bijgewerkt README.md, io-package.json en package.json.",
+        "fr": "Mise à jour de README.md, io-package.json et package.json.",
+        "it": "README.md, io-package.json e package.json aggiornati.",
+        "es": "Se actualizaron README.md, io-package.json y package.json.",
+        "pl": "Zaktualizowano README.md, io-package.json i package.json.",
+        "zh-cn": "更新了 README.md、io-package.json 和 package.json。"
+      },
+      "0.1.5": {
+        "en": "Updated io-package.json and package.json. Fixed blockly issue.",
+        "de": "io-package.json und package.json aktualisiert. Block-Problem behoben.",
+        "ru": "Обновлены файлы io-package.json и package.json. Исправлена блочная проблема.",
+        "pt": "Atualizado io-package.json e package.json. Corrigido problema de bloqueio.",
+        "nl": "Bijgewerkt io-package.json en package.json. Blokkeringsprobleem opgelost.",
+        "fr": "Mise à jour de io-package.json et package.json. Correction d'un problème de blocage.",
+        "it": "io-package.json e package.json aggiornati. Risolto problema a blocchi.",
+        "es": "Se actualizaron io-package.json y package.json. Solucionado el problema de los bloques.",
+        "pl": "Zaktualizowano io-package.json i package.json. Naprawiono problem blokowy.",
+        "zh-cn": "更新了 io-package.json 和 package.json。修复了块状问题。"
+      },
+      "0.1.4": {
+        "en": "Updated io-package.json and package.json. Added \"messagebox\": true to io-package.json. Changed phonenumber in admin page. ",
+        "de": "io-package.json und package.json aktualisiert. „messagebox“ hinzugefügt: true to io-package.json. Geänderte Telefonnummer auf der Admin-Seite.",
+        "ru": "Обновлены файлы io-package.json и package.json. Добавлено «messagebox»: true для io-package.json. Изменен номер телефона в админке.",
+        "pt": "Atualizado io-package.json e package.json. Adicionado \"messagebox\": true para io-package.json. Número de telefone alterado na página de administração.",
+        "nl": "Bijgewerkt io-package.json en package.json. \"messagebox\": true toegevoegd aan io-package.json. Telefoonnummer gewijzigd in admin pagina.",
+        "fr": "Mise à jour de io-package.json et package.json. Ajout de \"messagebox\": true à io-package.json. Numéro de téléphone modifié dans la page d'administration.",
+        "it": "io-package.json e package.json aggiornati. Aggiunto \"casella dei messaggi\": fedele a io-package.json. Numero di telefono modificato nella pagina di amministrazione.",
+        "es": "Se actualizaron io-package.json y package.json. Se agregó \"messagebox\": verdadero a io-package.json. Número de teléfono cambiado en la página de administración.",
+        "pl": "Zaktualizowano io-package.json i package.json. Dodano \"messagebox\": prawda dla io-package.json. Zmieniony numer telefonu na stronie administratora.",
+        "zh-cn": "更新了 io-package.json 和 package.json。为 io-package.json 添加了 \"messagebox\": true 。在管理页面中更改了电话号码。"
+      },
+      "0.1.3": {
+        "en": "Updated README.md, io-package.json and package.json",
+        "de": "README.md, io-package.json und package.json aktualisiert",
+        "ru": "Обновлен README.md, io-package.json и package.json.",
+        "pt": "Atualizado README.md, io-package.json e package.json",
+        "nl": "Bijgewerkt README.md, io-package.json en package.json",
+        "fr": "Mise à jour de README.md, io-package.json et package.json",
+        "it": "README.md, io-package.json e package.json aggiornati",
+        "es": "README.md, io-package.json y package.json actualizados",
+        "pl": "Zaktualizowano README.md, io-package.json i package.json",
+        "zh-cn": "更新了 README.md、io-package.json 和 package.json"
+      },
+      "0.1.2": {
+        "en": "Little changes and updates",
+        "de": "Kleine Änderungen und Updates",
+        "ru": "Небольшие изменения и обновления",
+        "pt": "Pequenas mudanças e atualizações",
+        "nl": "Kleine veranderingen en updates",
+        "fr": "Petits changements et mises à jour",
+        "it": "Piccole modifiche e aggiornamenti",
+        "es": "Pequeños cambios y actualizaciones",
+        "pl": "Małe zmiany i aktualizacje",
+        "zh-cn": "小改动和更新"
+      },
+      "0.1.0": {
+        "en": "First public release",
+        "de": "Erste öffentliche Veröffentlichung",
+        "ru": "Первый публичный релиз",
+        "pt": "Primeiro lançamento público",
+        "nl": "Eerste openbare release",
+        "fr": "Première sortie publique",
+        "it": "Prima uscita pubblica",
+        "es": "Primer lanzamiento público",
+        "pl": "Pierwsze publiczne wydanie",
+        "zh-cn": "首次公开发布"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "zh-cn": "首次出版"
+      }
     },
-    "native": {
-        "apikey": "",
-        "defaultPhone": ""
+    "title": "signal-cmb",
+    "titleLang": {
+      "en": "signal-cmb",
+      "de": "signal-cmb",
+      "ru": "signal-cmb",
+      "pt": "signal-cmb",
+      "nl": "signal-cmb",
+      "fr": "signal-cmb",
+      "it": "signal-cmb",
+      "es": "signal-cmb",
+      "pl": "signal-cmb",
+      "zh-cn": "signal-cmb"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "sendMessage",
-            "type": "state",
-            "common": {
-                "name": "Send message",
-                "write": true,
-                "read": true,
-                "type": "string",
-                "role": "state"
-            },
-            "native": {}
-        }
-    ]
+    "desc": {
+      "en": "Send messages from ioBroker to your Signal messenger",
+      "de": "Senden Sie Nachrichten von ioBroker an Ihren Signal-Messenger",
+      "ru": "Отправляйте сообщения из ioBroker в ваш мессенджер Signal",
+      "pt": "Envie mensagens do ioBroker para o seu mensageiro Signal",
+      "nl": "Stuur berichten van ioBroker naar uw Signal messenger",
+      "fr": "Envoyez des messages d'ioBroker à votre messager Signal",
+      "it": "Invia messaggi da ioBroker al tuo Signal messenger",
+      "es": "Envíe mensajes de ioBroker a su mensajero Signal",
+      "pl": "Wysyłaj wiadomości z ioBroker do swojego komunikatora Signal",
+      "zh-cn": "从 ioBroker 向您的 Signal Messenger 发送消息"
+    },
+    "authors": [
+      "derAlff <deralff@gmail.com>"
+    ],
+    "keywords": [
+      "signal",
+      "messenger",
+      "notification"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "signal-cmb.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/derAlff/ioBroker.signal-cmb/master/admin/signal-cmb.png",
+    "readme": "https://github.com/derAlff/ioBroker.signal-cmb/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "messaging",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "push",
+    "blockly": true,
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "messagebox": true,
+    "adminUI": {
+      "config": "materialize"
+    }
+  },
+  "native": {
+    "apikey": "",
+    "defaultPhone": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "sendMessage",
+      "type": "state",
+      "common": {
+        "name": "Send message",
+        "write": true,
+        "read": true,
+        "type": "string",
+        "role": "state"
+      },
+      "native": {}
+    }
+  ]
 }
