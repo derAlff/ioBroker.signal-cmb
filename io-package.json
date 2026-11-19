@@ -216,7 +216,11 @@
                 "js-controller": ">=2.0.0"
             }
         ],
-        "messagebox": true
+        "messagebox": true,
+        "supportedMessages": {
+            "custom": true,
+            "help": true
+        }
     },
     "native": {
         "apikey": "",

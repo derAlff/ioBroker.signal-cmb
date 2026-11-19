@@ -9,6 +9,7 @@
 // you need to create an adapter
 const utils = require('@iobroker/adapter-core');
 const request = require('request');
+const { HELP, COMMANDS } = require('./lib/help');
 
 /**
  * The adapter instance
@@ -101,6 +102,10 @@ function startAdapter(options) {
             }
         },
         message: (obj) => {
+            if (typeof obj === 'object' && obj.command === 'help') {
+                // description of all commands for AI agents, also without API key
+                return obj.callback && adapter.sendTo(obj.from, obj.command, {help: HELP, commands: COMMANDS}, obj.callback);
+            }
             if (typeof obj === 'object' && obj.message && adapter.config.apikey) {
                 if (obj.command === 'send' ) {
                     if (typeof obj.message !== 'object') {

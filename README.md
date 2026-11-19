@@ -42,6 +42,9 @@ sendTo('signal-cmb.0', 'send', {
 
 ![Blockly](img/blockly-signal.png)
 
+### Messages for scripts and AI agents
+`sendTo('signal-cmb.0', 'help', {})` answers `{ help, commands }`: `help` describes the commands with their parameters in English, for AI agents (e.g. ioBroker.pi-agent) and script authors; `commands` lists every command with `write` (`true` when it sends something).
+
 ### Emojies
 To send Emojies, you must add some **'Codes'** to your Message. You can find all available codes here: https://www.callmebot.com/uncategorized/list-of-urlencoded-unicode-emoticons-emojis/
 
@@ -79,6 +82,9 @@ Placeholder for the next version (at the beginning of the line):
 * Did some changes
 * Did some more changes
 -->
+### **WORK IN PROGRESS**
+* (@GermanBluefox) Added the message "help": a description of all messages for AI agents (e.g. pi-agent), and common.supportedMessages.help
+
 ### 0.3.1 (28.12.22)
 * (derAlff) Updated 'package.json' to use a minimal version of NodeJS
 * (derAlff) Updated description to configure CallMeBot in  'index_m.html'
